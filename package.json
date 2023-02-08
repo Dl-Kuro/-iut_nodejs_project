@@ -15,10 +15,12 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@dkuro/iut-encrypt": "^1.0.0",
     "@hapi/boom": "9.x.x",
     "@hapipal/haute-couture": "4.x.x",
     "@hapipal/schmervice": "^2.1.0",
     "@hapipal/schwifty": "6.x.x",
+    "bcrypt": "^5.1.0",
     "exiting": "6.0.1",
     "joi": "17.x.x",
     "mysql": "^2.18.1",
