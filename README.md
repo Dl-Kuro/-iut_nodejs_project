@@ -8,7 +8,7 @@ This project is a web application developed using Hapi.js and MySQL. The aim of 
 
 To start the project correctly, please follow the following steps:
 
-1. Clone the repository using the following command: `git clone https://github.com/your-repository.git`
+1. Clone the repository using the following command: `git clone https://github.com/Dl-Kuro/iut_nodejs_project.git`
 
 2. Run the `npm install` command from a terminal at the root of the project to install all necessary dependencies.
 
@@ -18,7 +18,7 @@ docker run -p 3306:3306 --name hapi-mysql -e MYSQL_ROOT_PASSWORD=hapi -e MYSQL_D
 ```
 This container will be the project's database with the username root and the password hapi.
 
-4. Go to /server/.env and complete it to configure everything. To modify the DB connection (if you don't want to go through the Docker container and have a DB on your side), you can add this to the .env:
+4. Go to `/server/.env` and complete it to configure everything. To modify the DB connection, you can add this to the .env:
 ```
 DB_HOST = your_host
 DB_USER = your_user
