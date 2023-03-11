@@ -24,6 +24,12 @@ DB_HOST = your_host
 DB_USER = your_user
 DB_PASSWORD = your_password
 DB_DATABASE = your_database_name
+
+// https://ethereal.email/create for the mail
+MAIL_HOST = smtp.ethereal.email
+MAIL_PORT = 587
+MAIL_ADDRESS = mail_generated
+MAIL_PASSWORD = password_generated
 ```
 
 Note: To configure emails, you can go to the following address: https://ethereal.email/ and create a new account, this will give you a functional configuration quickly.
